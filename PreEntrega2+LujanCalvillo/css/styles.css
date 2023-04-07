@@ -1,0 +1,21 @@
+body {
+    font-size: 15px;
+}
+
+.lista-hoteles {
+    margin-left: 1em;
+}
+
+.lista-hoteles ul {
+    list-style-type: disc;
+}
+
+.carbonads {
+    background-color: #f4f5f6;
+    border-radius: 4px;
+    color: #606c76;
+    line-height: 1.6;    
+    margin-bottom: 2rem;
+    max-width: 33rem;
+    padding: 1.5rem
+}
