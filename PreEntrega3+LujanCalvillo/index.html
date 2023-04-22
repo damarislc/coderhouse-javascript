@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Damaris Lujan Calvillo">
+    <title>Pre-entrega 3 - Resorts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <script defer src="https://moment.github.io/luxon/global/luxon.min.js"></script> -->
+    <script src="js/hoteles.js"></script>
+    <script src="js/claseReservacion.js"></script>
+    <script defer src="js/index.js"></script>
+</head>
+<body>
+    <h1 class="bienvenido">Bienvenid@ al GH Hotel Group</h1>
+    <div class="contenedor">
+        <div class="div-grupo" id="div-destino">
+            <label for="destino" class="label item-flex">¿A dónde quieres ir?</label>
+            <select id="destino" class="item-flex">
+                <option selected disabled class="default" value="0">Selecciona hotel destino</option>
+            </select>
+            <br>
+            <label for="check-in" class="label item-flex">Fecha de llegada</label>
+            <input type="date" class="input item-flex" id="fecha-llegada">
+            <br>
+            <label for="check-out" class="label item-flex">Fecha de salida</label>
+            <input type="date" class="input item-flex" id="fecha-salida">
+            <p class="costo" hidden></p>
+        </div>
+        <div class="red" id="disponibilidad-hotel"></div>
+        <div class="div-grupo" id="div-habitacion">
+            <div id="habitacion1">
+                <p>Elija el número de personas por habitación, de click en "Añadir habitación" para agregar una nueva.</p>
+                <span>🛏</span>
+                <span class="habitacion-numero" id="hab1">Habitación (maximo 4 personas)</span>
+                <span class="label">Personas:</label>
+                <select class="opciones personas personas-hab" id="personas-hab1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+        </div>
+        <div class="div-grupo div-botones">
+            <button class="boton-reservar">Reservar</button>
+            <button class="boton-add">Añadir habitación ➕</button>
+        </div>
+        <div class="" id="resumen-reservaciones"></div>
+    </div>
+    <div class="imagenes">
+        <!-- <img class="imagenes-hoteles" src="/images/riviera maya/img_001.jpg" alt=""> -->
+    </div>
+
+    
+    <!-- <p>Para comenzar con su reserva, abra el DevTools.</p>
+    <p>Una vez abierto, escriba: <b>comenzar()</b></p>
+    <div class="lista-hoteles carbonads">
+        <p>Hoteles que formar parte del GH:</p>
+        <ul>
+            <li>Hotel Riviera Maya</li>
+            <li>Hotel Ixtapa</li>
+            <li>Hotel Puerto Vallarta</li>
+            <li>Hotel Los Cabos</li>
+        </ul>
+    </div>
+    <p>Para hacer otra reservación, escriba: <b>otraReservacion()</b></p>
+    <p>Para mostrar todas las reservaciones, escriba: <b>mostarReservaciones()</b></p> -->
+</body>
+</html>

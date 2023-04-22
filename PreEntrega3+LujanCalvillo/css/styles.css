@@ -1,0 +1,108 @@
+html {
+    background-color: rgb(33, 165, 235,0.1);
+    /* display: table;
+    margin: auto; */
+}
+
+body {
+    font-size: 15px;
+    color: #606c76;
+    font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    /* display: table-cell;
+    vertical-align: middle; */
+    margin:0 auto;
+}
+
+input[type="color"], input[type="date"], input[type="datetime"], 
+input[type="datetime-local"], input[type="email"], input[type="month"], 
+input[type="number"], input[type="password"], input[type="search"], 
+input[type="tel"], input[type="text"], input[type="url"], 
+input[type="week"], input:not([type]), textarea, select {
+     width: 40%;
+}
+
+.bienvenido {
+    text-align: center;
+}
+.lista-hoteles {
+    margin-left: 1em;
+}
+
+.lista-hoteles ul {
+    list-style-type: disc;
+}
+
+.red {
+    color: red;
+    padding-left: 2em;
+}
+
+.carbonads {
+    background-color: #f4f5f6;
+    border-radius: 4px;
+    color: #606c76;
+    line-height: 1.6;    
+    margin-bottom: 2rem;
+    max-width: 33rem;
+    padding: 1.5rem
+}
+
+.label {
+    padding-left: 2em;
+    display: inline-block;
+    padding-right: 1em;
+}
+
+.contenedor {
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+    border-color: whitesmoke;
+    box-shadow: 26px 28px 15px -8px rgba(0,0,0,0.15);
+    border-radius: 0.7rem;
+    width: 40%;
+}
+
+#fecha-llegada {
+    margin-left: 2.2em;
+}
+
+#fecha-salida {
+    margin-left: 2.7em;
+}
+
+.div-grupo {
+    margin-bottom: 1.5rem;
+}
+
+#div-habitacion, .div-botones {
+    padding-left: 2em;
+}
+
+#div-habitacion p {
+    margin-bottom: 1em;
+}
+
+.personas {
+    width: 5em;
+}
+
+.eliminar-hab {
+    cursor: pointer;
+}
+
+.imagenes-hoteles {
+    width: 30em;
+    margin: .5em;
+    border-radius: 0.7rem;
+}
+
+.costo {
+    padding-left: 2em;
+}
+
+#resumen-reservaciones{
+    padding-left: 2em;
+    line-height: 0;
+}
